@@ -90,7 +90,7 @@ const Footer = () => {
     <Image src='/nunana.png' alt='logo' height={50} width={170} priority className='max-sm:w-[100px]'/>
     </Link>
 
-    <Link href='/' className='absolute right-8 bottom-28'>
+    <Link href='/' className='absolute right-8 max-sm:bottom-20 bottom-28'>
         <ArrowUpCircleIcon width='60px' color='gray'/>
     </Link>
         </div>

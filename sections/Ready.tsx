@@ -6,8 +6,8 @@ const Ready = () => {
         <div className='max-w-7xl mx-auto px-4'>
             <div className='text-white flex justify-center items-center'>
                 <div className='my-28 md:my-32 lg:my-40'>
-                <p className='font-extrabold text-3xl md:text-4xl lg:text-6xl items-center flex flex-wrap gap-2'>Ready to work,{""} <span className='font-thin italic  underline '>{" "} let&apos;s chat</span></p>
-                <p className='md:w-[75%] lg:w-[50%] max-sm:text-sm '>We&apos;d love to hear about your brand and business callenges even if you&apos;re not sure what your next step is. No pitch, no strings attached.</p>
+                <p className='font-extrabold text-3xl md:text-4xl lg:text-6xl items-center flex flex-wrap gap-5'>Ready to work,{""} <span className='font-thin italic  underline '>{" "} let&apos;s chat.</span></p>
+                <p className='md:w-[75%] lg:w-[50%] max-sm:text-sm pt-3'>We&apos;d love to hear about your brand and business callenges even if you&apos;re not sure what your next step is. No pitch, no strings attached.</p>
 
                 </div>
              

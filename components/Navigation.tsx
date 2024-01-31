@@ -6,7 +6,7 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <nav className='bg-0xblue text-white sticky top-0 backdrop-blur-md'>
+    <nav className='bg-0xblue text-white sticky top-0 backdrop-blur-md z-50'>
 <div className='max-w-7xl mx-auto py-2 flex justify-between'>
     <Link href='/' className=''>
     <Image src='/nuna.png' alt='logo' height={40} width={120} priority className='max-sm:w-[100px]'/>
