@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { ServiceProp } from '@/data/Servicesdata'
 
 const ServiceCard = ({info}:{info:ServiceProp}) => {
-  console.log('color',info.bgColor)
+ 
   return (
     <div className={`bg-${info.bgColor} text-${info.textColor} p-7 md:p-14 border rounded-md shadow-xl hover:scale-105 hover:transition-all`}>
         <div className='flex justify-between md:text-2xl font-bold '>
