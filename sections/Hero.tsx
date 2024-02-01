@@ -15,14 +15,14 @@ const Hero = () => {
             <Image src='/profit.png' alt='profit' width={80} height={20} className='md:w-[100px]'/>
         </div>
         <p className='font-semibold text-6xl'>We help your business grow <span className='italic underline text-0xblue font-normal'>exponentially.</span></p>
-    <p className='py-10'>Like any great agency, we are only as good as the result we deliver </p>
+    <p className='py-10 text-gray-700'>Like any great agency, we are only as good as the result we deliver </p>
     
-    <div className='border border-gray-600 w-[80%] mt-10'/>
-    <div className='py-7'>
+    <div className='border border-gray-400 w-[80%] mt-10'/>
+    <div className='py-7 text-gray-700'>
         <p>Get a free quote!</p>
         <p>Leave your email. We&apos;ll contact you in less than 24 hours</p>
     </div>
-    <form className='border border-black rounded-md p-[0.7px] flex '>
+    <form className='border border-black rounded-md p-[1px] flex '>
   <select className=' p-4 '>
     <option className='flex justify-center items-center'>
       <p className='font-extrabold text-center'>Select Topic</p> 
@@ -53,7 +53,7 @@ const Hero = () => {
     </div>
   
     <div className='hidden md:flex'>
-        <Image src='/me.jpg' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border'/>
+        <Image src='/me.jpg' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
     </div>
 </div>
         </div>
