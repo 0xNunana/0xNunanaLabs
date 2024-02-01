@@ -3,7 +3,7 @@ export type ServiceProp = {
     title:string 
     logo:string 
     details: string
-    bgColor:string
+    bgColor?:string
     textColor?:string
 }
 
@@ -27,6 +27,6 @@ export const ServiceInfo=[
         logo:'/Seo.png',
         details:'SEO, Google Ads,Facebook Ads,Tiktok,Instagram',
         bgColor:'0xseo',
-        textColor:'white'
+        textColor:'black'
     },
 ]

@@ -14,7 +14,7 @@ const Services = () => {
           <p className='font-bold'>0xNUNANA&apos;S SERVICES</p>
         </div>
 
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 pb-10'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 pb-10 md:pb-28'>
           {ServiceInfo.map((service) => (
             <ServiceCard key={service.id} info={service} />
           ))}
