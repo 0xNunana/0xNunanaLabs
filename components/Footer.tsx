@@ -13,7 +13,7 @@ const Footer = () => {
 <div className='grid grid-cols-3 gap-3'>
 <div>
     <p className='pb-5 font-semibold'>Services</p>
-    <ul className='text-gray-700'>
+    <ul className='text-gray-700 max-sm:text-sm'>
         <li>Web Development</li>
         <li>Mobile App development</li>
         <li>SEO </li>
@@ -22,7 +22,7 @@ const Footer = () => {
 </div>
 <div>
     <p className='pb-5 font-semibold'>Company</p>
-    <ul className='text-gray-700' >
+    <ul className='text-gray-700 max-sm:text-sm' >
         <li>About</li>
         <li>Contact</li>
         <li>Career</li>
@@ -31,7 +31,7 @@ const Footer = () => {
 </div>
 <div>
     <p className='pb-5 font-semibold'>Socials</p>
-    <ul className='text-gray-700'>
+    <ul className='max-sm:text-sm text-gray-700'>
         <li>X</li>
         <li>Facebook</li>
         <li>Instagram </li>
@@ -61,7 +61,7 @@ const Footer = () => {
 <div>
     <p className='pb-5 font-semibold'>Contact Us</p>
  
-    <ul className='text-gray-700'>
+    <ul className='text-gray-700 max-sm:text-sm'>
         <li className='flex gap-2 items-center'><EnvelopeIcon width='20px'/>kudayapaul@gmail.com</li>
         <li className='flex gap-2 items-center'><PhoneIcon width='20px'/> +233558669969</li>
         <li className='flex gap-2 items-center'> <Whatsapp/> +233271569815</li>

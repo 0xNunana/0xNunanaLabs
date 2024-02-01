@@ -1,19 +1,24 @@
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
 import React from 'react'
 import Image from 'next/image'
+import { ServiceProp } from '@/data/Servicesdata'
 
-const ServiceCard = () => {
+const ServiceCard = ({info}:{info:ServiceProp}) => {
+  console.log('color',info.bgColor)
   return (
-    <div className='bg-[#b9d0e2] p-14 border rounded-tl-[30%] rounded-br-[30%] shadow-xl hover:scale-105 hover:transition-all'>
-        <div className='flex justify-between items-center text-3xl font-bold'>
-            <p className=''>THINKING AND DESIGN.</p>
-            <ArrowUpRightIcon width='50px' />
+    <div className={`bg-${info.bgColor} text-${info.textColor} p-7 md:p-14 border rounded-md shadow-xl hover:scale-105 hover:transition-all`}>
+        <div className='flex justify-between md:text-2xl font-bold '>
+            <p className='uppercase'>{info.title}</p>
+            <div className='flex'>
+            <ArrowUpRightIcon width='40px' className='max-sm:w-[30px]' />
+            </div>
+         
         </div>
-        <div className='py-5'>
-            <Image src='/think.png' alt='profit' width={80} height={20} className='md:w-[100px]'/>
+        <div className='py-5 flex max-sm:justify-center '>
+            <Image src={info.logo} alt='profit' width={80} height={20} className='md:w-[100px]'/>
         </div>
         <div>
-            <p className='text-3xl font-bold'>Branding Strategy, Art Direction, UI/UX, Motion.</p>
+            <p className='text-2xl md:text-3xl font-bold flex flex-wrap'>{info.details}</p>
         </div>
     </div>
   )
