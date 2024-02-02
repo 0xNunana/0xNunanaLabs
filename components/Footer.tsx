@@ -7,7 +7,7 @@ import Whatsapp from './Whatsapp'
 
 const Footer = () => {
   return (
-    <footer className='bg-white relative' >
+    <footer className='bg-white relative' id='contact' >
         <div className='max-w-7xl mx-auto py-20  px-5'>
         <div className='grid md:grid-cols-2 gap-4'>
 <div className='grid grid-cols-3 gap-3'>

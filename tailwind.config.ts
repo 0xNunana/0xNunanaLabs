@@ -22,6 +22,37 @@ const config: Config = {
         "0xseo":"#29292b"
       },   gridColumn: {
         'span-half': 'span 1.5 / span 1.5',
+      },
+      keyframes:{
+        slideL:{
+          '0%':{
+            opacity:'0',
+transform:'translateX(50px)'
+          },
+         
+          '100%':{
+            opacity:'1',
+            transform:'translateX(0)'
+
+          }
+        },
+        slideD:{
+          '0%':{
+            opacity:'0',
+transform:'translateY(-50px)'
+          },
+         
+          '100%':{
+            opacity:'1',
+            transform:'translateY(0)'
+
+          }
+        }
+
+      },
+      animation:{
+        'slideLeft':'slideL 2s ease forwards',
+        'slideDown':'slideD 2s ease forwards'
       }
     },
   },

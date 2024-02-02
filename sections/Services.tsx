@@ -7,7 +7,7 @@ import { ServiceInfo } from '@/data/Servicesdata';
 
 const Services = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white' id='services'>
       <div className='max-w-7xl mx-auto px-3 py-10'>
         <div className='flex gap-5 items-center py-7'>
           <div className='border border-0xblue w-10 h-5 bg-0xblue' />

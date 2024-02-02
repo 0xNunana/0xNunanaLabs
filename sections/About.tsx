@@ -1,13 +1,11 @@
 import React from 'react'
-import { ChevronDownIcon } from '@heroicons/react/16/solid'
-import { ArrowRightIcon, } from '@heroicons/react/24/outline'
-import { EnvelopeIcon } from '@heroicons/react/24/outline'
+
 import Image from 'next/image'
 import StatsCard from '@/components/StatsCard'
 import { StatsInfo } from '@/data/Statsdata'
 const About = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white' id='about'>
         <div className='max-w-7xl mx-auto px-3 pb-10'>
 
         <div className='grid md:grid-cols-2 gap-16'>

@@ -5,7 +5,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className=' ' >
+    <div className=' ' id='projects'>
 <div className='max-w-7xl mx-auto px-3 py-10'>
 
    <div className='flex gap-5 items-center justify-center py-10 md:py-20'>
