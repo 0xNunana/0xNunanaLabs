@@ -12,7 +12,7 @@ export const ServiceInfo=[
         title:'Thinking and design',
         logo:'/think.png',
         details:'Branding Strategy, Art Direction, UI/UX, Motion',
-        bgColor:'red-500',
+        bgColor:'',
         textColor:'black'
     },
     {id:2,
@@ -27,6 +27,6 @@ export const ServiceInfo=[
         logo:'/Seo.png',
         details:'SEO, Google Ads,Facebook Ads,Tiktok,Instagram',
         bgColor:'0xseo',
-        textColor:'black'
+        textColor:'white'
     },
 ]

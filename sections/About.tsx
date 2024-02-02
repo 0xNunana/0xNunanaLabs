@@ -4,6 +4,7 @@ import { ArrowRightIcon, } from '@heroicons/react/24/outline'
 import { EnvelopeIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import StatsCard from '@/components/StatsCard'
+import { StatsInfo } from '@/data/Statsdata'
 const About = () => {
   return (
     <div className='bg-white'>
@@ -11,7 +12,7 @@ const About = () => {
 
         <div className='grid md:grid-cols-2 gap-16'>
         <div className='hidden md:flex'>
-        <Image src='/me.jpg' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
+        <Image src='/woman.jpg' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
     </div>
 
 
@@ -41,11 +42,11 @@ const About = () => {
   
 </div>
 <div className='grid md:grid-cols-2 lg:grid-cols-3 max-sm:divide-y-2 md:divide-x-2'>
-   
-  <StatsCard/>
+{StatsInfo.map((stats)=>(
+  <StatsCard info={stats} key={stats.id}/>
+))}
       
-  <StatsCard/>
-  <StatsCard/>
+ 
 </div>
 <div className='max-sm:hidden border border-gray-400 '/>
         </div>
