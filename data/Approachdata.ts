@@ -8,25 +8,25 @@ export type ApproachProps={
 export const ApproachInfo=[
     {
         id:'one',
-        image:'/nuna.png',
+        image:'/story.png',
         title:'Story & Research',
         description:'Through out the story the brand, We explore and analyse brand&apos;s platform, message, visual identity and how they connect'
     },
     {
         id:'two',
-        image:'/nuna.png',
+        image:'/bulb.png',
         title:'Strategy & Concept',
         description:'Through out the story the brand, We explore and analyse brand&apos;s platform, message, visual identity and how they connect'
     },
     {
         id:'three',
-        image:'/nuna.png',
+        image:'/imp.png',
         title:'Implementation',
         description:'Through out the story the brand, We explore and analyse brand&apos;s platform, message, visual identity and how they connect'
     },
     {
         id:'four',
-        image:'/nuna.png',
+        image:'/check.png',
         title:'Usability Testing',
         description:'Through out the story the brand, We explore and analyse brand&apos;s platform, message, visual identity and how they connect'
     },
