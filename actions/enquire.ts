@@ -16,7 +16,8 @@ const topic =  formData.get('Topic')
             to: process.env.RECEIVER_EMAIL || '', // Ensure it's not undefined
             subject: 'Enquiry',
             text: topic.toString(), // Convert FormDataEntryValue to string
-            replyTo: email.toString() // Convert FormDataEntryValue to string
+            replyTo: email.toString(), // Convert FormDataEntryValue to string
+            html:"<div>{email}+ <p>try html</p></div>"
         };
 
 

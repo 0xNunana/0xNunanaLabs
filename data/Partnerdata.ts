@@ -7,22 +7,22 @@ export type PartnerProps ={
 export const PartnerInfo = [
     {
         id:1,
-        image:'/gold.png',
+        image:'/gold.webp',
         alt:'gold company'
     },
     {
         id:2,
-        image:'/think.png',
-        alt:'gold company'
+        image:'/firstsummit.webp',
+        alt:'First Summit It'
     },
     {
         id:3,
-        image:'/Seo.png',
-        alt:'gold company'
+        image:'/Aser.webp',
+        alt:'Consultancy'
     },
-    {
-        id:4,
-        image:'/Seo.png',
-        alt:'gold company'
-    },
+    // {
+    //     id:4,
+    //     image:'/Seo.webp',
+    //     alt:'gold company'
+    // },
 ]

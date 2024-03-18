@@ -10,7 +10,7 @@ const About = () => {
 
         <div className='grid md:grid-cols-2 gap-16'>
         <div className='hidden md:flex'>
-        <Image src='/woman.jpg' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
+        <Image src='/woman.webp' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
     </div>
 
 

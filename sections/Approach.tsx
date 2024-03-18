@@ -14,7 +14,7 @@ const Approach = () => {
     <p className='font-bold'>OUR APPROACH</p>
 </div>
 
-<div className='flex overflow-x-auto overflow-hidden gap-3 py-5 '>
+<div className='grid md:flex overflow-x-auto overflow-hidden gap-3 py-5 '>
  {ApproachInfo.map((app)=>(
     <ApproachCard info={app} key={app.id}/>
  ))}
@@ -26,7 +26,7 @@ const Approach = () => {
 <div className='grid grid-cols-2 gap-16'>
         <div className='flex items-center justify-center message animate-slideRight relative p-5 '>
 
-        <Image src='/sandy.jpeg'  alt='hero image' fill className=' object-cover  shadow-lg'/>
+        <Image src='/sandy.webp'  alt='hero image' width={500} height={500} className='w-full h-full object-cover max-sm:rounded-xl shadow-lg'/>
     </div>
 
 
@@ -38,12 +38,12 @@ const Approach = () => {
     <div className='border border-0xblue w-10 h-3 lg:h-5 bg-0xblue'/>
     <p className='font-bold max-sm:text-sm'>WHAT OUR CLIENTS SAY</p>
 </div>
-        <p className='py-10 font-bold text-sm lg:text-4xl animate-slideLeft'>
+        <p className='md:py-10 md:font-bold text-sm lg:text-4xl animate-slideLeft'>
       {"I don't know what else to say, 0xNunana Labs took my company from zero to hero with their unique design and marketing strategies"}
       </p>
     
-    <div className=''>
-        <p className='max-sm:font-semibold animate-slideLeft'>Bryte Tawiah</p>
+    <div className='pt-2 md:pt-0'>
+        <p className='font-semibold animate-slideLeft'>Bryte Tawiah</p>
         <p className='max-sm:text-xs text-white/50 animate-slideLeft'>CEO at <span className='  text-white'>JuxBryte Rentals</span></p>
     </div>
  

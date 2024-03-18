@@ -10,21 +10,21 @@ export type ServiceProp = {
 export const ServiceInfo=[
     {id:1,
         title:'Thinking and design',
-        logo:'/think.png',
+        logo:'/think.webp',
         details:'Branding Strategy, Art Direction, UI/UX, Motion',
         bgColor:'',
         textColor:'black'
     },
     {id:2,
         title:'Development and coding',
-        logo:'/code.png',
+        logo:'/code.webp',
         details:'React, NodeJS, Typescript, React Native',
         bgColor:'0xblue',
         textColor:'white'
     },
     {id:3,
         title:'SEO / MARKETING & ADVERTISEMENT',
-        logo:'/Seo.png',
+        logo:'/Seo.webp',
         details:'SEO, Google Ads,Facebook Ads,Tiktok,Instagram',
         bgColor:'0xseo',
         textColor:'white'

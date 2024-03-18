@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='flex justify-center items-center '>
     <div className='relative'>
         <div className='pb-5'>
-            <Image src='/profit.png' alt='profit' width={80} height={20} priority className='md:w-[100px]'/>
+            <Image src='/profit.webp' alt='profit' width={80} height={20} priority className='md:w-[100px]'/>
         </div>
         <p className='font-semibold text-4xl lg:text-6xl max-sm:text-center'>We help your business grow <span className='italic  text-0xblue font-normal'>exponentially.</span></p>
     <p className='py-7 md:py-10 text-gray-700 max-sm:text-center'>Like any great agency, we are only as good as the result we deliver </p>
@@ -30,7 +30,7 @@ const Hero = () => {
     </div>
   
     <div className='hidden md:flex'>
-        <Image src='/me.jpg' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
+        <Image src='/me.webp' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
     </div>
 </div>
         </div>

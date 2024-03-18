@@ -62,9 +62,20 @@ const Footer = () => {
     <p className='pb-5 font-semibold'>Contact Us</p>
  
     <ul className='text-gray-700 max-sm:text-sm'>
+        <Link href='mailto:kudayapaul@gmail.com'>
         <li className='flex gap-2 items-center'><EnvelopeIcon width='20px'/>kudayapaul@gmail.com</li>
-        <li className='flex gap-2 items-center'><PhoneIcon width='20px'/> +233558669969</li>
-        <li className='flex gap-2 items-center'> <Whatsapp/> +233271569815</li>
+        </Link>
+   
+    <Link href='tel:+233558669969'>
+    <li className='flex gap-2 items-center'><PhoneIcon width='20px'/> +233558669969</li>
+    </Link>
+       <Link href='https://wa.me/+447475087779'>
+       <li className='flex gap-2 items-center'> <Whatsapp/>+447475087779 </li>
+       </Link>
+<Link href='https://wa.me/+233271569815'>
+<li className='flex gap-2 items-center'> <Whatsapp/> +233271569815</li>
+</Link>
+        
         <li className='flex gap-2 items-center'><MapPinIcon width='20px'/>  Remote</li>
     </ul>
  
@@ -87,7 +98,7 @@ const Footer = () => {
 </div>
 
 <Link href='/' className='flex justify-center items-center py-2'>
-    <Image src='/nunana.png' alt='logo' height={50} width={170} priority className='max-sm:w-[100px]'/>
+    <Image src='/nunana.webp' alt='logo' height={50} width={170} priority className='max-sm:w-[100px]'/>
     </Link>
 
     <Link href='/' className='absolute right-8 max-sm:bottom-20 bottom-28'>
