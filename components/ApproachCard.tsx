@@ -5,7 +5,7 @@ import { ApproachProps } from '@/data/Approachdata'
 const ApproachCard = ({info}:{info:ApproachProps}) => {
   return (
     <div>
-   <div className='border border-gray-600 p-5'>
+   <div className='border border-gray-600 p-5 animate-scaleUp'>
   
   <div className='flex gap-1 items-center  '>
   <div className='border border-0xblue w-2 rounded-full h-2 bg-0xblue'/>

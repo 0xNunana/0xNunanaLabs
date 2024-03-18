@@ -6,7 +6,7 @@ import { ServiceProp } from '@/data/Servicesdata'
 const ServiceCard = ({info}:{info:ServiceProp}) => {
  
   return (
-    <div className={`bg-${info.bgColor} text-${info.textColor} p-7 md:p-14 border rounded-md shadow-xl hover:scale-105 hover:transition-all`}>
+    <div className={`bg-${info.bgColor} text-${info.textColor} p-7 md:p-14 border rounded-md shadow-xl   animate-scaleUp`}>
         <div className='flex justify-between md:text-2xl font-bold '>
             <p className='uppercase'>{info.title}</p>
             <div className='flex'>

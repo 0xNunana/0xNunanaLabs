@@ -22,7 +22,7 @@ const About = () => {
     <div className='border border-0xblue w-10 h-5 bg-0xblue'/>
     <p className='font-bold'>OUR VISION & MISSION</p>
 </div>
-        <p className='font-semibold text-4xl lg:text-6xl max-sm:text-center'>Unleash the full potential of businesses & transform brands for <span className='italic underline text-0xblue font-normal'>the better.</span></p>
+        <p className='font-semibold text-4xl lg:text-6xl max-sm:text-center'>Unleash the full potential of businesses & transform brands for the <span className='italic   text-0xblue font-normal'> better.</span></p>
     <p className='py-10 text-gray-700'>Like any great agency, we are only as good as the result we deliver </p>
     
     <div className='border border-gray-400 w-[80%] md:mt-10'/>

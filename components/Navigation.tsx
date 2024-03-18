@@ -15,9 +15,9 @@ const Navigation = () => {
 
 
     <div className='flex gap-5 items-center pr-2'>
-<div className='hidden md:flex border  p-3 hover:bg-blue-500/50  cursor-pointer'>
+<Link href='#enquiry' className='hidden md:flex border  p-3 hover:bg-blue-500/50  cursor-pointer '>
 <p className='flex flex-nowrap '>Free Consultation</p>
-</div>
+</Link>
 {ismenuOpen && (
    <div className='hidden md:flex p-5 animate-slideLeft'>
     <ul className='flex  gap-2'>
