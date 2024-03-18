@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Quicksand } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"],weight:['100','200','300','400','500','600','700','800','900'] });
+const quick = Quicksand({ subsets: ["latin"],weight:['300','400','500','600','700'] })
 
 export const metadata: Metadata = {
   title: "0xNunana Labs | Brand Development",
@@ -29,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} relative`} >
+      <body className={`${quick.className} relative`} >
         <Navigation/>
         {children}
         <Footer/>
