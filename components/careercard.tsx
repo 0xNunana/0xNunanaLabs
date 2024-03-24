@@ -6,7 +6,7 @@ const Careercard = ({career}:{career:JobProps}) => {
     <div className='p-5 m-3 bg-white rounded-md space-y-7 shadow-xl'>
     {/* Render job details */}
     <div>
-    <div className='p-2 flex justify-between items-center flex-wrap'>
+    <div className='p-2 flex max-sm:space-y-2 justify-between items-center flex-wrap'>
     <p className='text-3xl font-semibold'>{career.position}</p>
     <button className='bg-0xblue rounded-full px-5 py-2 max-sm:w-full text-white font-semibold transition-colors delay-100 hover:bg-0xblue/80'>Apply now</button>
     </div>
