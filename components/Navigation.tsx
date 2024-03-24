@@ -21,16 +21,21 @@ const Navigation = () => {
 {ismenuOpen && (
    <div className='hidden md:flex p-5 animate-slideLeft'>
     <ul className='flex  gap-2'>
-      <Link href='#about' className='hover:bg-blue-500/50 p-2 rounded-md'>
+      <Link href='/#about' className='hover:bg-blue-500/50 p-2 rounded-md'>
         <li>About</li>
       </Link>
-      <Link href='#projects' className='hover:bg-blue-500/50 p-2 rounded-md'>
+      <Link href='/#projects' className='hover:bg-blue-500/50 p-2 rounded-md'>
         <li>Projects</li>
       </Link>
-      <Link href='#services' className='hover:bg-blue-500/50 p-2 rounded-md'>
+      <Link href='/#services' className='hover:bg-blue-500/50 p-2 rounded-md'>
         <li>Services</li>
       </Link>
-      <Link href='#contact' className='hover:bg-blue-500/50 p-2 rounded-md'>
+      <Link href='/careers' className='hover:bg-blue-500/50 p-2 rounded-md'>
+        <li>Careers</li>
+      </Link>
+      
+
+      <Link href='/#contact' className='hover:bg-blue-500/50 p-2 rounded-md'>
         <li>Contact</li>
       </Link>
     </ul>
@@ -50,16 +55,20 @@ const Navigation = () => {
     <div className='mt-10 py-10 animate-slideDown'>
    
         <div className='grid gap-6'>
-        <Link href='#about' onClick={()=>setIsMenuOpen(false)} className='hover:bg-blue-500/50 p-3 rounded-md'>
+        <Link href='/#about' onClick={()=>setIsMenuOpen(false)} className='hover:bg-blue-500/50 p-3 rounded-md'>
         <p>About</p>
         </Link>
-       <Link href='#projects' onClick={()=>setIsMenuOpen(false)} className='hover:bg-blue-500/50 p-3 rounded-md'>
+       <Link href='/#projects' onClick={()=>setIsMenuOpen(false)} className='hover:bg-blue-500/50 p-3 rounded-md'>
        <p>Products</p>
        </Link>
-       <Link href='#services' onClick={()=>setIsMenuOpen(false)} className='hover:bg-blue-500/50 p-3 rounded-md'>
+       <Link href='/#services' onClick={()=>setIsMenuOpen(false)} className='hover:bg-blue-500/50 p-3 rounded-md'>
        <p>Services</p></Link>
+
+        <Link href='/careers' onClick={()=>setIsMenuOpen(false)} className='hover:bg-blue-500/50 p-3 rounded-md'>
+       <p>Careers</p></Link>
+       
      
-       <Link href='#contact' onClick={()=>setIsMenuOpen(false)}className='hover:bg-blue-500/50 p-3 rounded-md'>
+       <Link href='/#contact' onClick={()=>setIsMenuOpen(false)}className='hover:bg-blue-500/50 p-3 rounded-md'>
        <p>Contact</p>
        </Link>
         </div>
