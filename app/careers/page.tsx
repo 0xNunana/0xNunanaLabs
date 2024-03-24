@@ -12,7 +12,7 @@ const CareersPage = () => {
   return (
     <div className='min-h-screen max-w-7xl  mx-auto mb-10'>
 
-        <div className='flex gap-7 p-5'>
+        <div className='flex gap-2 md:gap-7 p-5 flex-wrap'>
             <Link href='/careers'>
             <p>All</p>
          
@@ -22,7 +22,7 @@ const CareersPage = () => {
             
       
             </Link>
-            <ul className='flex gap-5 relative'>
+            <ul className='flex gap-2 md:gap-5 relative flex-wrap'>
   {Array.from(new Set(careerData.map(career => career.team))).map((team) => (
     <Link href={`/careers/${team}`} key={team}>
       <li>{team}</li>

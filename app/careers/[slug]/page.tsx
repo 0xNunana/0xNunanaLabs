@@ -16,12 +16,12 @@ const SlugPage = () => {
 console.log('Para',params.slug)
   return (
     <div className='min-h-screen max-w-7xl  mx-auto mb-10 '>
-      <div className='flex gap-5 p-5'>
+      <div className='flex gap-2 md:gap-5 p-5 flex-wrap'>
         <Link href='/careers'>
           <p>All</p>
           
         </Link>
-        <ul className='flex gap-5'>
+        <ul className='flex flex-wrap gap-2 md:gap-5'>
           {Array.from(new Set(careerData.map(career => career.team))).map((team) => (
             <Link href={`/careers/${team}`} key={team}>
               <li>{team}</li>
