@@ -1,5 +1,7 @@
 
 import Enquiry from '@/components/Enquiry'
+import StatsCard from '@/components/StatsCard'
+import { StatsInfo } from '@/data/Statsdata'
 import Image from 'next/image'
 import React from 'react'
 
@@ -24,6 +26,8 @@ const Hero = () => {
   
  {/* enquiry form  */}
  <Enquiry/>
+
+ 
     
     
     </div>
@@ -32,6 +36,15 @@ const Hero = () => {
     <div className='hidden md:flex'>
         <Image src='/me.webp' width={500} height={100} alt='hero image' className='object-cover rounded-tl-[50%] rounded-br-[50%] border shadow-lg'/>
     </div>
+</div>
+
+
+<div className='grid md:grid-cols-2 lg:grid-cols-3 max-sm:divide-y-2 md:divide-x-2'>
+{StatsInfo.map((stats)=>(
+  <StatsCard info={stats} key={stats.id}/>
+))}
+      
+ 
 </div>
         </div>
     </div>

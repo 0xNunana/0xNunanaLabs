@@ -4,6 +4,7 @@ import React from 'react'
 import { EnvelopeIcon,GlobeAltIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import { ArrowUpCircleIcon } from '@heroicons/react/24/outline'
 import Whatsapp from './Whatsapp'
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 const Footer = () => {
   return (
@@ -53,7 +54,7 @@ const Footer = () => {
 <input placeholder='Enter your email address' className='flex-grow'/>
             </div>
        
-<p className='text-black font-semibold text-center md:text-end'>SUBSCRIBE {'-->'}</p>
+<button type='submit' className='text-black font-semibold text-center md:text-end flex items-center gap-2 group '><p>SUBSCRIBE</p> <ArrowRightIcon className='w-5 h-5 group-hover:translate-x-1 transition delay-150'/></button>
         </form>
         <div className='mt-2 border-gray-400 border'/>
     </div>

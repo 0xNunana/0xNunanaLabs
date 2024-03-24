@@ -10,7 +10,7 @@ export const ApproachInfo = [
         id: 'one',
         image: '/story.webp',
         title: 'Story & Research',
-        description: 'We delve deep into your brand&apos;s story, conducting thorough research to understand your platform, message, and visual identity. By analyzing these elements, we uncover connections that drive your brand forward.'
+        description: "We delve deep into your brand's story, conducting thorough research to understand your platform, message, and visual identity. By analyzing these elements, we uncover connections that drive your brand forward."
     },
     {
         id: 'two',

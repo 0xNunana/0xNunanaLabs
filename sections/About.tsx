@@ -1,8 +1,7 @@
 import React from 'react'
 
 import Image from 'next/image'
-import StatsCard from '@/components/StatsCard'
-import { StatsInfo } from '@/data/Statsdata'
+import Link from 'next/link'
 const About = () => {
   return (
     <div className='bg-white' id='about'>
@@ -23,11 +22,11 @@ const About = () => {
     <p className='font-bold'>OUR VISION & MISSION</p>
 </div>
         <p className='font-semibold text-4xl lg:text-6xl max-sm:text-center'>Unleash the full potential of businesses & transform brands for the <span className='italic   text-0xblue font-normal'> better.</span></p>
-    <p className='py-10 text-gray-700'>Like any great agency, we are only as good as the result we deliver </p>
+    <p className='py-10 md:text-lg text-gray-700'>We envision empowering businesses and transforming brands, unlocking their full potential while driving positive change and redefining industry standards. Through tailored solutions, collaboration, and a relentless pursuit of excellence, we aim to cultivate lasting relationships and deliver measurable impact, fostering innovation and inspiring positive change in the communities we serve.</p>
     
-    <div className='border border-gray-400 w-[80%] md:mt-10'/>
+    <div className='border border-gray-400 w-[80%] '/>
     <div className='py-7 text-gray-700'>
-        <p className='max-sm:font-semibold'>Get a free quote!</p>
+        <Link href=''><p className='font-semibold animate-pulse'>Get a free quote!</p></Link>
         <p>Leave your email. We&apos;ll contact you in less than 24 hours</p>
     </div>
  
@@ -39,14 +38,8 @@ const About = () => {
   
   
 </div>
-<div className='grid md:grid-cols-2 lg:grid-cols-3 max-sm:divide-y-2 md:divide-x-2'>
-{StatsInfo.map((stats)=>(
-  <StatsCard info={stats} key={stats.id}/>
-))}
-      
- 
-</div>
-<div className='max-sm:hidden border border-gray-400 '/>
+
+
         </div>
     </div>
   )

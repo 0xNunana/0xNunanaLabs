@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "0xNunana Labs",
     description: "Brand development and advertisement",
     siteName: "0xNunana Labs",
-    images:'/nunana.webp'
+    images:'/opengraph.webp'
   
   }
 };

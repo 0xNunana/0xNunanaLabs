@@ -15,7 +15,7 @@ const Navigation = () => {
 
 
     <div className='flex gap-5 items-center pr-2'>
-<Link href='#enquiry' className='hidden md:flex border  p-3 hover:bg-blue-500/50  cursor-pointer '>
+<Link href='#enquiry' className='hidden md:flex border  p-3 hover:bg-blue-500/50  cursor-pointer  transition delay-100'>
 <p className='flex flex-nowrap '>Free Consultation</p>
 </Link>
 {ismenuOpen && (

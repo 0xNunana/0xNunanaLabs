@@ -5,6 +5,7 @@ import { PartnerInfo } from '@/data/Partnerdata'
 const Partners = () => {
   return (
     <div className='bg-white py-20'>
+    
            <div className='flex gap-5 items-center justify-center py-7'>
     <div className='border border-0xblue w-10 h-4 bg-0xblue'/>
     <p className='font-bold'>FEATURED PARTNERS</p>

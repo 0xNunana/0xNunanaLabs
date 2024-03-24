@@ -12,37 +12,37 @@ const Projects = () => {
     <p className='font-bold'>FEATURED PROJECTS</p>
 </div>
 
-<div className='grid grid-cols-3 md:gap-2 lg:gap-3 hover:transition-all'>
-<Link href='https://automobile-alpha.vercel.app/' className="col-span-1   border h-[150px] md:h-[250px] lg:h-[400px] rounded-tl-3xl  shadow-lg bg-[url('/car.webp')] bg-cover hover:scale-105  ">
+<div className='grid grid-cols-3 md:gap-2 lg:gap-3 '>
+<Link href='https://automobile-alpha.vercel.app/' className="col-span-1   border h-[150px] md:h-[250px] lg:h-[400px] rounded-tl-3xl  shadow-lg bg-[url('/car.webp')] bg-cover hover:scale-105 transition delay-100 ">
 
 </Link>
 
-<Link href='https://road-boys.vercel.app/' className="col-span-2   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-tr-3xl shadow-lg bg-[url('/road.webp')] bg-cover  hover:scale-105">
+<Link href='https://road-boys.vercel.app/' className="col-span-2   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-tr-3xl shadow-lg bg-[url('/road.webp')] bg-cover  hover:scale-105 transition delay-100 ">
 
 </Link>
-<Link href='https://firstsummitit.com/' className="col-span-2   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/first.webp')] bg-cover  hover:scale-105">
-
-</Link>
-
-<Link href='' className="col-span-1 border bg-[url('/uber.webp')] bg-cover h-[150px] md:h-[250px] lg:h-[400px] shadow-lg   hover:scale-105">
+<Link href='https://firstsummitit.com/' className="col-span-2   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/first.webp')] bg-cover  hover:scale-105 transition delay-100 ">
 
 </Link>
 
-<Link  href='https://farm-hazel.vercel.app/' className="col-span-3 border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/farm.webp')] bg-cover  hover:scale-105">
+<Link href='' className="col-span-1 border bg-[url('/uber.webp')] bg-cover h-[150px] md:h-[250px] lg:h-[400px] shadow-lg   hover:scale-105 transition delay-100 ">
 
 </Link>
 
-<Link  href='https://nike-seven-gamma.vercel.app/' className="col-span-1 border rounded-md shadow-2xl bg-[url('/nike.webp')] bg-cover hover:scale-105">
+<Link  href='https://farm-hazel.vercel.app/' className="col-span-3 border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/farm.webp')] bg-cover  hover:scale-105 transition delay-100 ">
 
 </Link>
 
-<Link href='' className="col-span-1   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/orders.webp')] bg-cover  hover:scale-105">
+<Link  href='https://nike-seven-gamma.vercel.app/' className="col-span-1 border rounded-md shadow-2xl bg-[url('/nike.webp')] bg-cover hover:scale-105 transition delay-100 ">
 
 </Link>
-<Link href='https://car-dwom.vercel.app/' className="col-span-1   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/rent.webp')] bg-cover hover:scale-105 ">
+
+<Link href='' className="col-span-1   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/orders.webp')] bg-cover  hover:scale-105 transition delay-100 ">
 
 </Link>
-<Link href='https://nunana-farms.vercel.app/' className="col-span-2 border rounded-bl-3xl  bg-[url('/consult.webp')] bg-cover h-[150px] md:h-[250px] lg:h-[400px]  shadow-lg hover:scale-105">
+<Link href='https://car-dwom.vercel.app/' className="col-span-1   border h-[150px] md:h-[250px] lg:h-[400px]   rounded-md shadow-lg bg-[url('/rent.webp')] bg-cover hover:scale-105 transition delay-100  ">
+
+</Link>
+<Link href='https://nunana-farms.vercel.app/' className="col-span-2 border rounded-bl-3xl  bg-[url('/consult.webp')] bg-cover h-[150px] md:h-[250px] lg:h-[400px]  shadow-lg hover:scale-105 transition delay-100 ">
 
 </Link>
 
